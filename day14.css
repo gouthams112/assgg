@@ -1,0 +1,185 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  display: grid;
+  margin-left: 30%;
+}
+.header {
+  width: 600px;
+  height: 10vh;
+  background-color: #036055;
+  color: white;
+  display: flex;
+  cursor: pointer;
+  position: sticky;
+}
+.back {
+
+  height: 40px;
+  width: 40px;
+  padding: 7px;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 0px;
+
+}
+.profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: auto;
+
+  margin-bottom: 3px;
+  margin-left: 10px;
+
+}
+h2 {
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
+}
+span {
+  font-size: 14px;
+  margin-left: 12px;
+  margin-bottom: 13px;
+}
+h2 {
+  margin: auto;
+  margin-left: 3px;
+}
+.video {
+  height: 45px;
+  width: 45px;
+  padding: 8px;
+  margin: auto;
+  margin-left: 210px;
+  margin-right: 10px;
+}
+.phone {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.dots {
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  margin: auto;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.chatbox {
+  width: 600px;
+  height: 80vh;
+  overflow-y: scroll;
+  background-image: url(../Assets/images/bg.jpeg);
+  background-attachment: fixed;
+}
+.chatbox .week {
+  position: sticky;
+}
+
+.week{
+ 
+  border-radius: 10px;
+    background-color:#ccc ;
+    font-size: 15px;
+    width: 90px;
+    margin-left: 250px;
+    text-align: center;
+    position: sticky;
+    top: -4px;
+}
+.leftside {
+  max-width: 140px;
+  background: #f7fcf6;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 5px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.rightside {
+  max-width: 140px;
+  background: #e2ffc7;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+  margin-left: 460px;
+  
+}
+.rightside .check{
+  margin-left: 32%;
+}
+.leftside .check{
+  margin-left: 45%;
+}
+.check img {
+  width: 20px;
+}
+.check span {
+color: #888;
+font-size: 12px;
+font-weight: 700px;
+}
+
+.footer {
+  width: 600px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  position: relative;
+  cursor: pointer;
+}
+
+textarea {
+  display: block;
+  flex: 1;
+  width: 100%;
+  height: 50px;
+  border-radius: 60px;
+  margin: 5px;
+  padding: 10px;
+  outline: none;
+  font-size: 19px;
+  padding-left: 40px;
+  padding-right: 90px;
+  border: 2px solid #ccc;
+  color: #555;
+  resize: none;
+}
+.mic {
+  display: block;
+  width: 55px;
+  height: 55px;
+  margin-right: 20px;
+}
+.emo {
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.icons {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+}
+.icons img {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-left: 5px;
+}
